@@ -1,14 +1,11 @@
 
 
 public class Main {
-
     public static void main(String[] args) {
-
         short[] kek= new short[18];
         float[] x = new float[17];
         for(short i =1; i <=kek.length; i++){
             kek[i-1] = i ;
-
         }
         for(int i =0; i <x.length; i++){
             x[i] = (float) Math.random()*11 -9;
@@ -28,7 +25,6 @@ public class Main {
                         a[i][j] = Math.cos(Math.pow(2*Math.sin(Math.sin(x[j])),3));
                     }
                 }
-
             }
         }
         for(int i =0;i<18;i++){
